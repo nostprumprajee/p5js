@@ -67,7 +67,7 @@ v-container.my-dashboard(
         v-date-picker(
           v-model="date"
           min="2016-06-15"
-          max="2018-03-20"
+          max="2019-03-20"
           full-width
           :event-color="date => date[9] % 2 ? 'red' : 'yellow'"
           :events="functionEvents"
@@ -104,7 +104,7 @@ export default {
   data () {
     return {
       test: this.$store.state.dashboard.test,
-      date: '2018-05-21'
+      date: '2019-02-24'
     }
   },
 
